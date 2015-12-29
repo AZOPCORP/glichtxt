@@ -3,6 +3,8 @@
 
 # GLICHTXT.JS
 
+### [DEMO](https://glichtxt.azopcorp.com)
+
 ### WTF?:
  
  Glichtxt.js is a jquery plug-in that replace the text content of a specified element with a js-canvas "glitched" animation.
@@ -81,14 +83,14 @@ blend:20;
 
 Controls the globalCompositeOperation property of the glitched text .
 Every properties are stored inside an array in this order : 
-
-        "source-over", "source-in", "source-out", "source-atop",
+```javascript
+        ["source-over", "source-in", "source-out", "source-atop",
         "destination-over", "destination-in", "destination-out", "destination-atop",
         "lighter", "copy", "xor", "multiply", "screen", "overlay", "darken",
         "lighten", "color-dodge", "color-burn", "hard-light", "soft-light",
-        "difference", "exclusion", "hue", "saturation", "color", "luminosity"
-
-So blend:0  will output-> "source-over", blend:10-> "xor", and blend:25-> "luminosity".
+        "difference", "exclusion", "hue", "saturation", "color", "luminosity"]
+```
+So blend: 0  will output -> "source-over", blend:10 -> "xor", and blend:25-> "luminosity".
 
 
 ### Limitations
