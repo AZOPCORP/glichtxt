@@ -14,16 +14,16 @@
 
 ### Usage:
 Load jquery first.
-```
+```html
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 ```
 Then load glichtxt.js
-```
+```html
  <script type="text/javascript" src="js/glichtxt.min.js"></script>
 ```
 
 Then just target some elements: 
-```
+```html
 <script type="text/javascript">
 $("p").glichtxt();
 $(".a-class-to-glich").glichtxt();
