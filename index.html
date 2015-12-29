@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Glichtxt.js sample page">
+    <meta name="author" content="">
+
+    <title>Glichtxt.js sample page</title>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Freckle+Face|Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet" >
+
+
+    <style type="text/css">
+
+body {
+  font-family: 'Lora', 'Times New Roman', serif;
+  background-color: #EEE;
+  font-size: 20px;
+  color: #404040;
+}
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+p a {
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+a {
+  color: #404040;
+}
+a:hover,
+a:focus {
+  color: #0085a1;
+}
+a img:hover,
+a img:focus {
+  cursor: zoom-in;
+}
+footer {
+    font-family: 'Lora', 'Times New Roman', serif;
+  padding: 50px 0 65px;
+}
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h1>Glichtxt.js demo</h1>
+
+                    <br>
+                    <br>
+                    <h2>Examples</h2>
+                    <br>
+                    <code>
+                    $('#gliched1').glichtxt({
+                                                rotate:false,
+                                                blend:20,
+                                                scaling:true,
+                                                scaleforce:5,
+                                                glichforce:100
+
+                                                    });
+                </code>
+                    <p id="gliched1" style="font-family: 'Freckle Face', cursive;">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+
+
+                    <br>
+                    <code>
+                    $('#gliched2').glichtxt({
+                                                rotate:true,
+                                                rotateforce:2,
+                                                blend:21,
+                                                scaling:true,
+                                                scaleforce:2,
+                                             
+                                                glichforce:100
+
+                                                    });
+
+                </code>
+                    <p id="gliched2" style="font-family: 'Press Start 2P', cursive;">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+
+                    <br>
+                    <code>
+                 $('#gliched3').glichtxt({
+                                                rotate:false,
+                                                
+                                                blend:18,
+                                                scaling:true,
+                                                scaleforce:2,
+                                             
+                                                glichforce:300
+
+                                                    });
+
+                </code>
+                    <p id="gliched3" style="font-family: 'Press Start 2P', cursive;">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+<footer>
+<div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+Copyleft <a href="http://azopcorp.com">Azopcorp</a> 2015.
+ </div>
+ <br><br><br><hr>
+ </div>
+ </div>               
+
+</footer>
+
+
+
+    <script type="text/javascript" src="js/glichtxt.min.js"></script>
+
+    <script type="text/javascript">
+$('#gliched1').glichtxt({
+    rotate: false,
+    blend: 20,
+    scaling: false,
+    scaleforce: 5,
+    glichforce: 100
+
+});
+
+$('#gliched2').glichtxt({
+    rotate: true,
+    rotateforce: 2,
+    blend: 21,
+    scaling: true,
+    scaleforce: 2,
+
+    glichforce: 100
+
+});
+$('#gliched3').glichtxt({
+    rotate: false,
+
+    blend: 18,
+    scaling: true,
+    scaleforce: 2,
+
+    glichforce: 300
+
+});
+
+    </script>
+
+</body>
+
+</html>
