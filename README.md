@@ -10,7 +10,7 @@
  
 ### Features:
  
- Glichtxt.js is able to get the following CSS properties from the targeted elements : "font-family","font-size","background-color","color" and line-height". So the "gliched element" text will looks the same as defined in your CSS.
+ Glichtxt.js is able to get the following CSS properties from the targeted elements : "font-family","font-size","background-color","color" and "line-height". So the "gliched element" text will looks the same as defined in your CSS.
 
 ### Usage:
 Load jquery first.
