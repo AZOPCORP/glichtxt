@@ -3,7 +3,7 @@
 
 # GLICHTXT.JS
 
-### [DEMO](https://glichtxt.azopcorp.com)
+### [DEMO](http://glichtxt.azopcorp.com)
 
 ### WTF?:
  
