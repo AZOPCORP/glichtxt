@@ -3,12 +3,12 @@
   $.fn.glichtxt = function (params) {
 ///Input parameters
     params = $.extend({
-      rotate: true,
+      rotate: false,
       rotateforce: 2,
       scaling: true,
       scaleforce: 3,
       heightoffset: 18,
-      glitchforce:3,
+      glitchforce:10,
       blend: 8
 
     }, params);
