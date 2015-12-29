@@ -3,12 +3,12 @@
 
 # GLICHTXT.JS
 
- ### WTF?:
+### WTF?:
  
  Glichtxt.js is a jquery plug-in that replace the text content of a specified element with a js-canvas "glitched" animation.
  
  
- ### Features:
+### Features:
  
  Glichtxt.js is able to get the following CSS properties from the targeted elements : "font-family","font-size","background-color","color" and line-height". So the "gliched element" text will looks the same as defined in your CSS.
 
